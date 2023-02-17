@@ -2,15 +2,14 @@
  * @Author: WGF
  * @Date: 2023-02-09 16:56:25
  * @LastEditors: WGF
- * @LastEditTime: 2023-02-10 09:57:58
- * @FilePath: \umi\src\components\Menu\index.tsx
+ * @LastEditTime: 2023-02-17 09:15:41
+ * @FilePath: \drawerMenu\src\components\Menu\index.tsx
  * @Description: 文件描述
  */
 import React, { useEffect, useState } from 'react';
 import styles from './index.less';
 import Drawer1 from './components/Drawer1';
 import Drawer2 from './components/Drawer2';
-import Drawer3 from './components/Drawer3';
 const IndexPage: React.FC<{ open: boolean; defaultShow?: string }> = (
   props,
 ) => {
